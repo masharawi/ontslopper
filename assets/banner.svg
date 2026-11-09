@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="De Ontslopper: haalt AI-slop uit je Nederlandse tekst">
+  <title>De Ontslopper</title>
+  <rect width="1280" height="640" fill="#FFF4E2"/>
+  <g transform="translate(110 104) scale(0.84)">
+    <ellipse cx="256" cy="430" rx="150" ry="26" fill="#9FD36B"/>
+    <ellipse cx="256" cy="424" rx="118" ry="16" fill="#B9E38C"/>
+    <circle cx="112" cy="398" r="10" fill="#9FD36B"/>
+    <circle cx="402" cy="392" r="13" fill="#9FD36B"/>
+    <circle cx="380" cy="364" r="7" fill="#9FD36B"/>
+    <rect x="232" y="58" width="48" height="250" rx="24" fill="#C98A4B" stroke="#2A1F1A" stroke-width="12"/>
+    <rect x="246" y="78" width="10" height="200" rx="5" fill="#E2AC72"/>
+    <path d="M136 412 C136 316 186 276 256 276 C326 276 376 316 376 412 Z" fill="#E8432E" stroke="#2A1F1A" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M168 380 C172 330 204 304 244 300" fill="none" stroke="#FF8A6E" stroke-width="12" stroke-linecap="round"/>
+    <rect x="122" y="400" width="268" height="30" rx="15" fill="#C7311F" stroke="#2A1F1A" stroke-width="12"/>
+    <path d="M404 120 l10 24 l24 10 l-24 10 l-10 24 l-10 -24 l-24 -10 l24 -10 z" fill="#FFC531" stroke="#2A1F1A" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M108 168 l7 16 l16 7 l-16 7 l-7 16 l-7 -16 l-16 -7 l16 -7 z" fill="#FFC531" stroke="#2A1F1A" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+  <text x="590" y="285" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="86" fill="#2A1F1A">De Ontslopper</text>
+  <text x="594" y="360" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="34" fill="#5B4A3F">Haalt AI-slop uit je Nederlandse tekst.</text>
+  <text x="594" y="410" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="34" fill="#5B4A3F">Gratis skill voor ChatGPT en Claude.</text>
+  <rect x="594" y="452" width="250" height="52" rx="26" fill="#E8432E"/>
+  <text x="719" y="487" text-anchor="middle" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF">ontslop je tekst</text>
+</svg>

@@ -1,0 +1,24 @@
+name: Nieuwe AI-verrader
+description: Een Nederlandse AI-gewoonte die De Ontslopper nog niet vangt.
+labels: ["nieuwe verrader"]
+body:
+  - type: textarea
+    id: voorbeeld
+    attributes:
+      label: Voorbeeld
+      description: Echte tekst waarin de verrader staat. Haal er eerst alles uit wat privé is.
+    validations:
+      required: true
+  - type: textarea
+    id: mens
+    attributes:
+      label: Hoe een mens het zou schrijven
+    validations:
+      required: true
+  - type: textarea
+    id: waarom
+    attributes:
+      label: Waarom het nu gemist wordt
+      description: Welk bestaand patroon komt het dichtst in de buurt, en waarom vangt dat dit niet? De meeste nieuwe verraders passen in een bestaand patroon.
+    validations:
+      required: false

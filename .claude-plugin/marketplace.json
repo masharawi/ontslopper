@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ontslopper",
+  "owner": {
+    "name": "Fares Masharawi",
+    "url": "https://snellermet.ai"
+  },
+  "description": "Installeer De Ontslopper als Claude-plugin.",
+  "plugins": [
+    {
+      "name": "ontslopper",
+      "source": "./",
+      "description": "Haalt AI-slop uit Nederlandse tekst: herschrijft AI-tekst zodat hij klinkt als de schrijver, zonder de inhoud te veranderen.",
+      "license": "MIT",
+      "keywords": ["nederlands", "dutch", "humanizer", "ai-slop", "schrijven"]
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 ---
-name: humanizer-nl
+name: ontslopper
 description: |
   Herschrijf Nederlandse tekst die klinkt alsof ChatGPT of Claude hem schreef, zodat hij klinkt als de schrijver zelf. De inhoud blijft gelijk.
   Gebruik dit bij LinkedIn-posts, werkmails, sollicitatiebrieven, Instagram- en TikTok-captions, appjes, nieuwsbrieven en blogs, of als iemand vraagt
   om tekst "menselijker", "minder AI" of "minder ChatGPT" te maken. Vangt Nederlandse AI-verraders zoals "Duik in de wereld van", "niet zomaar een X,
-  het is Y", "Het goede nieuws?", em dashes, vetgedrukte labels en vertaald Engels, en laat gewoon Nederlands staan. Dutch humanizer.
+  het is Y", "Het goede nieuws?", em dashes, vetgedrukte labels en vertaald Engels, en laat gewoon Nederlands staan. Ook bij "ontslop dit" of "haal de AI-slop eruit". Dutch humanizer, anti AI-slop.
 license: MIT
 metadata:
   version: "0.2.0"
 ---
 
-# Humanizer NL: AI-tekst in het Nederlands weer menselijk maken
+# De Ontslopper: AI-slop uit Nederlandse tekst halen
 
 Herschrijf de tekst zodat hij klinkt als de schrijver, niet als een chatbot. Houd vast wat er staat. Verzin niets.
 
@@ -327,4 +327,4 @@ Deze skill herschrijft. Hij zegt niets over wie een tekst schreef: een schone te
 - Opbouw en Engelse patronen: [blader/humanizer](https://github.com/blader/humanizer) (MIT), gebaseerd op Wikipedia: "Signs of AI writing" (WikiProject AI Cleanup).
 - Gemeten Nederlandse patronen en de lijst "Laat staan": [SametDemirtas/humanizer-lists](https://github.com/SametDemirtas/humanizer-lists) (MIT).
 - Ambtelijk Nederlands en vertaald zakenjargon: [Nossie/humanize](https://github.com/Nossie/humanize) (MIT).
-- Per soort tekst: Humanizer NL.
+- Per soort tekst en de Nederlandse aanvullingen: De Ontslopper.

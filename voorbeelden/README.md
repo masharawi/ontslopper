@@ -1,6 +1,6 @@
 # Voorbeelden: voor en na
 
-De "voor"-teksten zijn geschreven in de standaardstijl van een AI-assistent. De "na"-teksten zijn herschreven met Humanizer NL. Er is geen feit bijgekomen of weggevallen.
+De "voor"-teksten zijn geschreven in de standaardstijl van een AI-assistent. De "na"-teksten zijn ontslopt met De Ontslopper. Er is geen feit bijgekomen of weggevallen.
 
 ## LinkedIn-post
 

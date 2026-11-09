@@ -1,8 +1,17 @@
-# Humanizer NL
+<p align="center">
+  <img src="assets/social-preview.png" alt="De Ontslopper: haalt AI-slop uit je Nederlandse tekst" width="820">
+</p>
 
-Iedereen ziet tegenwoordig of een LinkedIn-post, mail of sollicitatiebrief door ChatGPT is geschreven. "Duik in de wereld van", "Het goede nieuws?", een lijstje met vinkjes en drie hashtags te veel.
+<p align="center">
+  <b>Gratis skill voor ChatGPT, Claude en Codex die AI-slop uit je Nederlandse tekst haalt.</b><br>
+  <a href="#installeren">Installeren</a> · <a href="#gebruiken">Gebruiken</a> · <a href="voorbeelden/README.md">Voorbeelden</a> · <a href="SKILL.md">De regels</a>
+</p>
 
-Humanizer NL haalt dat eruit. Het is een gratis skill voor Claude, Codex en ChatGPT die AI-tekst in het **Nederlands** herschrijft tot tekst die klinkt als jij. Wat er staat, blijft staan. Er komt niets bij dat je niet zelf schreef.
+---
+
+Iedereen ziet tegenwoordig of een LinkedIn-post, mail of sollicitatiebrief door ChatGPT is geschreven. "Duik in de wereld van", "Het goede nieuws?", een lijstje met vinkjes en vijf hashtags te veel.
+
+De Ontslopper haalt dat eruit. Hij herschrijft AI-tekst in het **Nederlands** tot tekst die klinkt als jij. Wat er staat, blijft staan. Er komt niets bij dat je niet zelf schreef.
 
 ## Voor en na
 
@@ -22,14 +31,14 @@ Humanizer NL haalt dat eruit. Het is een gratis skill voor Claude, Codex en Chat
 
 Meer voorbeelden (werkmail, sollicitatiebrief, Instagram-caption) staan in [voorbeelden](voorbeelden/README.md).
 
-## Waarom een Nederlandse versie
+## Waarom een Nederlandse
 
-De bekende humanizers zijn Engels. Op Nederlandse tekst gaan ze mis, op twee manieren:
+Er zijn inmiddels genoeg skills die afrekenen met AI-slop, maar ze zijn Engels. Op Nederlandse tekst gaan ze op twee manieren mis:
 
-1. **Ze missen de Nederlandse verraders.** AI-Nederlands is vaak vertaald Engels: "Til je … naar een hoger niveau", "Ik hoop dat deze mail je goed bereikt", "de extra mijl gaan", een komma voor "en", kopjes Met Hoofdletters.
-2. **Ze schrappen gewoon Nederlands.** "Daarnaast", "Bovendien", "Kortom" en "niet alleen … maar ook" staan op veel lijstjes met AI-woorden, maar mensen gebruiken ze ook. Dat is gemeten op duizenden Nederlandse teksten. Humanizer NL laat ze staan.
+1. **Ze missen de Nederlandse verraders.** AI-Nederlands is vaak vertaald Engels: "Til je … naar een hoger niveau", "Ik hoop dat deze mail je goed bereikt", "de extra mijl gaan", een komma voor "en", functies Met Hoofdletters.
+2. **Ze schrappen gewoon Nederlands.** "Daarnaast", "Bovendien", "Kortom" en "niet alleen … maar ook" staan op veel lijstjes met AI-woorden, maar mensen gebruiken ze ook. Dat is gemeten op duizenden Nederlandse teksten. De Ontslopper laat ze staan.
 
-Er zit ook een deel in per soort tekst: LinkedIn-post, werkmail, sollicitatiebrief, Instagram- of TikTok-caption, appje, nieuwsbrief en blog. Want een appje herschrijf je anders dan een sollicitatiebrief.
+Daarnaast weet hij dat je een appje anders schrijft dan een sollicitatiebrief. Er zijn aparte regels voor LinkedIn-posts, werkmails, sollicitatiebrieven, Instagram- en TikTok-captions, appjes, nieuwsbrieven en blogs.
 
 ## Installeren
 
@@ -38,37 +47,42 @@ Er zit ook een deel in per soort tekst: LinkedIn-post, werkmail, sollicitatiebri
 1. Maak een **Project** (of een eigen GPT) en plak de tekst uit [`chatgpt/instructies.md`](chatgpt/instructies.md) in de instructies.
 2. Plak je tekst in een gesprek in dat project. Klaar.
 
-Liever niet installeren? Plak de instructies gewoon bovenaan een nieuw gesprek, met je tekst eronder.
+Liever niets instellen? Plak de instructies bovenaan een nieuw gesprek, met je tekst eronder.
 
 ### Claude (website en app)
 
 1. Download deze repo als zip (**Code → Download ZIP**).
 2. Ga in Claude naar **Instellingen → Mogelijkheden** en upload de zip als skill.
-3. Vraag daarna gewoon: "maak deze tekst menselijker" en plak je tekst.
+3. Vraag daarna gewoon: "ontslop deze tekst" en plak je tekst.
 
 ### Claude Code
 
 ```bash
-npx skills add masharawi/humanizer-nl --global --agent claude-code
+npx skills add masharawi/ontslopper --global --agent claude-code
 ```
 
-Of zet de map zelf in `~/.claude/skills/humanizer-nl`.
+Of als plugin:
+
+```text
+/plugin marketplace add masharawi/ontslopper
+/plugin install ontslopper@ontslopper
+```
 
 ### Codex
 
 ```bash
-npx skills add masharawi/humanizer-nl --global --agent codex
+npx skills add masharawi/ontslopper --global --agent codex
 ```
 
 ## Gebruiken
 
 Plak je tekst en zeg wat het is:
 
-> Maak deze LinkedIn-post menselijker: (tekst)
+> Ontslop deze LinkedIn-post: (tekst)
 
 Wil je dat het klinkt zoals jij schrijft? Geef er een stukje eigen tekst bij:
 
-> Zo schrijf ik normaal: (een oude post of mail van jezelf). Herschrijf deze mail in mijn stijl: (tekst)
+> Zo schrijf ik normaal: (een oude post of mail van jezelf). Ontslop deze mail in mijn stijl: (tekst)
 
 Wil je zien wat er mis was? Vraag om de lijst met gevonden verraders.
 
@@ -76,15 +90,15 @@ Wil je zien wat er mis was? Vraag om de lijst met gevonden verraders.
 
 ## Wat het niet is
 
-Geen AI-detector en geen manier om detectors te omzeilen. Humanizer NL maakt tekst beter leesbaar. Of een tekst door AI is geschreven, kun je er niet mee bewijzen, en dat probeert het ook niet.
+Geen AI-detector en geen manier om detectors te omzeilen. De Ontslopper maakt tekst beter leesbaar voor mensen. Of een tekst door AI is geschreven, kun je er niet mee bewijzen, en dat probeert hij ook niet.
 
 ## Meedoen
 
-Zie je een Nederlandse AI-verrader die er niet in staat, of maakt de skill iets kapot? Open een issue met de tekst ervoor en erna.
+Zie je een Nederlandse AI-verrader die er niet in staat, of maakt De Ontslopper iets kapot? [Open een issue](../../issues/new/choose) met de tekst ervoor en erna.
 
 ## Bronnen
 
-Humanizer NL bouwt voort op werk van anderen, allemaal onder de MIT-licentie:
+De Ontslopper bouwt voort op werk van anderen, allemaal onder de MIT-licentie:
 
 - [blader/humanizer](https://github.com/blader/humanizer): de opbouw en de Engelse patronen, gebaseerd op Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 - [SametDemirtas/humanizer-lists](https://github.com/SametDemirtas/humanizer-lists): de gemeten Nederlandse patronen en welke woorden gewoon Nederlands zijn.
@@ -94,4 +108,4 @@ Zie [NOTICE.md](NOTICE.md).
 
 ## Gemaakt door
 
-Fares Masharawi, [Sneller met AI](https://snellermet.ai). MIT-licentie.
+Fares Masharawi ([@faresgpt](https://www.instagram.com/faresgpt/)), [Sneller met AI](https://snellermet.ai). MIT-licentie.

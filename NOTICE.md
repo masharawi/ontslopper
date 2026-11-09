@@ -1,6 +1,6 @@
 # Naamsvermelding
 
-Humanizer NL (c) 2026 Fares Masharawi, MIT-licentie. Het bouwt voort op deze projecten, ook allemaal MIT:
+De Ontslopper (c) 2026 Fares Masharawi, MIT-licentie. Het bouwt voort op deze projecten, ook allemaal MIT:
 
 - **blader/humanizer**, Copyright (c) 2025 Siqi Chen. https://github.com/blader/humanizer
   Opbouw van de skill, de werkwijze en de structurele patronen. Zelf gebaseerd op Wikipedia: "Signs of AI writing" (WikiProject AI Cleanup).

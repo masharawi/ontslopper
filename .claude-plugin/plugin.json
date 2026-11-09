@@ -1,0 +1,14 @@
+{
+  "name": "ontslopper",
+  "description": "Haalt AI-slop uit Nederlandse tekst: herschrijft AI-tekst zodat hij klinkt als de schrijver, zonder de inhoud te veranderen.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Fares Masharawi",
+    "url": "https://snellermet.ai"
+  },
+  "homepage": "https://github.com/masharawi/ontslopper",
+  "repository": "https://github.com/masharawi/ontslopper",
+  "license": "MIT",
+  "keywords": ["nederlands", "dutch", "humanizer", "ai-slop", "schrijven", "writing"],
+  "skills": ["./"]
+}

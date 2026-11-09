@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: AI-detectors zien de tekst nog steeds als AI
+    url: https://github.com/masharawi/ontslopper#wat-het-niet-is
+    about: Detectors omzeilen is geen doel. De Ontslopper schrijft voor mensen.

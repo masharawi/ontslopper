@@ -1,0 +1,35 @@
+name: Slechte herschrijving
+description: De Ontslopper maakte een tekst slechter, liet een feit weg of verzon iets.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: voor
+    attributes:
+      label: Tekst ervoor
+      description: Haal er eerst alles uit wat privé is.
+    validations:
+      required: true
+  - type: textarea
+    id: na
+    attributes:
+      label: Wat De Ontslopper ervan maakte
+    validations:
+      required: true
+  - type: textarea
+    id: probleem
+    attributes:
+      label: Wat er mis is
+    validations:
+      required: true
+  - type: dropdown
+    id: waar
+    attributes:
+      label: Waar gebruikte je hem?
+      options:
+        - ChatGPT
+        - Claude (website of app)
+        - Claude Code
+        - Codex
+        - Anders
+    validations:
+      required: true

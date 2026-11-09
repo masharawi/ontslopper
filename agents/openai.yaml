@@ -1,0 +1,4 @@
+interface:
+  display_name: "De Ontslopper"
+  short_description: "Haalt AI-slop uit Nederlandse tekst"
+  default_prompt: "Gebruik $ontslopper om deze tekst te ontsloppen, zonder de feiten te veranderen."
