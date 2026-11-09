@@ -3,8 +3,17 @@
 </p>
 
 <p align="center">
-  <b>Gratis skill voor ChatGPT, Claude en Codex die AI-slop uit je Nederlandse tekst haalt.</b><br>
-  <a href="#installeren">Installeren</a> · <a href="#gebruiken">Gebruiken</a> · <a href="voorbeelden/README.md">Voorbeelden</a> · <a href="SKILL.md">De regels</a>
+  <b>Gratis skill voor ChatGPT, Claude en Codex die AI-slop uit je Nederlandse tekst haalt.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/masharawi/ontslopper/releases/latest/download/ontslopper.zip"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20voor%20Claude-ontslopper.zip-E8432E?style=for-the-badge" alt="Download voor Claude"></a>
+  &nbsp;
+  <a href="chatgpt/instructies.md"><img src="https://img.shields.io/badge/ChatGPT-instructies%20kopi%C3%ABren-2A1F1A?style=for-the-badge" alt="ChatGPT-instructies kopiëren"></a>
+</p>
+
+<p align="center">
+  <a href="#installeren">Installeren in 2 minuten</a> · <a href="voorbeelden/README.md">Voorbeelden</a> · <a href="SKILL.md">Alle regels</a>
 </p>
 
 ---
@@ -44,14 +53,15 @@ Daarnaast weet hij dat je een appje anders schrijft dan een sollicitatiebrief. E
 
 ### ChatGPT
 
-1. Maak een **Project** (of een eigen GPT) en plak de tekst uit [`chatgpt/instructies.md`](chatgpt/instructies.md) in de instructies.
-2. Plak je tekst in een gesprek in dat project. Klaar.
+1. Open [`chatgpt/instructies.md`](chatgpt/instructies.md) en klik rechtsboven op het kopieericoon.
+2. Maak in ChatGPT een **Project** (of een eigen GPT) en plak de tekst in de instructies.
+3. Plak je tekst in een gesprek in dat project en zeg "ontslop dit". Klaar.
 
 Liever niets instellen? Plak de instructies bovenaan een nieuw gesprek, met je tekst eronder.
 
 ### Claude (website en app)
 
-1. Download deze repo als zip (**Code → Download ZIP**).
+1. Download [**ontslopper.zip**](https://github.com/masharawi/ontslopper/releases/latest/download/ontslopper.zip). Niet uitpakken.
 2. Ga in Claude naar **Instellingen → Mogelijkheden** en upload de zip als skill.
 3. Vraag daarna gewoon: "ontslop deze tekst" en plak je tekst.
 
