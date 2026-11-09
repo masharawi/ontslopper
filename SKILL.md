@@ -12,7 +12,7 @@ metadata:
 
 # De Ontslopper: AI-slop uit Nederlandse tekst halen
 
-Herschrijf de tekst zodat hij klinkt als de schrijver, niet als een chatbot. Houd vast wat er staat. Verzin niets.
+Herschrijf de tekst zodat hij klinkt als de schrijver, niet als een chatbot. Houd vast wat er staat. Verzin niets: ook geen gevoelens, ervaringen of kleur die de schrijver niet noemde ("soms was het afzien", "dat hielp enorm"). Een tekst wordt menselijk door weg te laten, niet door er een verhaal bij te bedenken.
 
 ## Waarom AI-tekst zo klinkt
 
