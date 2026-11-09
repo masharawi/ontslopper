@@ -22,21 +22,17 @@ Iedereen ziet tegenwoordig of een LinkedIn-post, mail of sollicitatiebrief door 
 
 De Ontslopper haalt dat eruit. Hij herschrijft AI-tekst in het **Nederlands** tot tekst die klinkt als jij. Wat er staat, blijft staan. Er komt niets bij dat je niet zelf schreef.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="De ontstopper trekt de AI-slop van het scherm" width="300">
+</p>
+
 ## Voor en na
 
-**Voor**
+<img src="assets/voorbeeld-linkedin.png" alt="Voor en na: LinkedIn-post" width="100%">
 
-> 🚀 Ik ben verheugd om aan te kondigen dat ik vandaag begin als marketingmanager bij Bakkerij Jansen!
->
-> De afgelopen drie jaar bij Studio Noord waren een onvergetelijke reis vol groei, uitdagingen en mooie momenten. (…)
->
-> Het gaat niet om waar je werkt. Het gaat om wat je onderweg leert.
+<img src="assets/voorbeeld-mail.png" alt="Voor en na: werkmail" width="100%">
 
-**Na**
-
-> Vandaag begin ik als marketingmanager bij Bakkerij Jansen.
->
-> De afgelopen drie jaar werkte ik bij Studio Noord. Met z'n vieren deden we daar de socials van dertig lokale ondernemers. Nu ga ik me op één bakkerij richten, en daar heb ik zin in.
+<img src="assets/voorbeeld-sollicitatie.png" alt="Voor en na: sollicitatiebrief" width="100%">
 
 Meer voorbeelden (werkmail, sollicitatiebrief, Instagram-caption) staan in [voorbeelden](voorbeelden/README.md).
 

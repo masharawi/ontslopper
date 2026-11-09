@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1600px; height: 760px; background: #FFF4E2; font-family: "Segoe UI", Arial, sans-serif; color: #2A1F1A; display: flex; flex-direction: column; padding: 56px 64px; }
+  h1 { font: 800 46px/1 "Segoe UI", Arial; display: flex; align-items: center; gap: 18px; margin-bottom: 36px; }
+  h1 img { width: 64px; }
+  h1 span { color: #E8432E; }
+  .rij { display: flex; gap: 40px; flex: 1; }
+  .kaart { flex: 1; background: #fff; border-radius: 28px; padding: 34px 38px; box-shadow: 0 20px 50px rgba(42,31,26,.12); position: relative; }
+  .label { position: absolute; top: -20px; left: 30px; padding: 8px 22px; border-radius: 999px; font: 800 24px/1 "Segoe UI", Arial; color: #fff; }
+  .voor .label { background: #2A1F1A; } .na .label { background: #E8432E; }
+  .na { border: 5px solid #9FD36B; }
+  p { font-size: 31px; line-height: 1.42; margin-bottom: 16px; }
+  mark { background: rgba(232,67,46,.25); color: inherit; border-radius: 6px; padding: 0 4px; text-decoration: line-through; text-decoration-color: rgba(232,67,46,.8); text-decoration-thickness: 3px; }
+  .pijl { align-self: center; font: 800 60px/1 Arial; color: #E8432E; }
+</style></head>
+<body>
+  <h1><img src="logo.svg" alt="">De Ontslopper <span id="soort"></span></h1>
+  <div class="rij">
+    <div class="kaart voor"><div class="label">Voor</div><div id="voor"></div></div>
+    <div class="pijl">→</div>
+    <div class="kaart na"><div class="label">Na</div><div id="na"></div></div>
+  </div>
+<script>
+const V = {
+  linkedin: { soort: "· LinkedIn-post",
+    voor: `<p><mark>🚀 Ik ben verheugd om aan te kondigen</mark> dat ik vandaag begin als marketingmanager bij Bakkerij Jansen!</p><p>De afgelopen drie jaar bij Studio Noord waren <mark>een onvergetelijke reis vol groei, uitdagingen en mooie momenten</mark>.</p><p><mark>✅ Samenwerking is de sleutel ✅ Fouten zijn kansen</mark></p><p><mark>Het gaat niet om waar je werkt. Het gaat om wat je onderweg leert.</mark></p>`,
+    na: `<p>Vandaag begin ik als marketingmanager bij Bakkerij Jansen.</p><p>De afgelopen drie jaar werkte ik bij Studio Noord. Met z'n vieren deden we daar de socials van dertig lokale ondernemers.</p><p>Nu ga ik me op één bakkerij richten, en daar heb ik zin in.</p>` },
+  mail: { soort: "· Werkmail",
+    voor: `<p>Beste Sanne,</p><p><mark>Ik hoop dat deze mail je goed bereikt.</mark></p><p><mark>Zoals je weet hebben we vorige week uitgebreid gesproken over de planning.</mark> <mark>Het is belangrijk om op te merken dat</mark> de teksten nog niet compleet zijn.</p><p><mark>Derhalve</mark> zou ik je willen vragen of het mogelijk is om de deadline te verschuiven naar woensdag 19 november.</p>`,
+    na: `<p>Hoi Sanne,</p><p>Kunnen we de deadline van het nieuwe project verschuiven van vrijdag 14 naar woensdag 19 november?</p><p>Een deel van de teksten ontbreekt nog. Zonder die teksten lukt vrijdag niet.</p><p>Groet,<br>Tom</p>` },
+  sollicitatie: { soort: "· Sollicitatiebrief",
+    voor: `<p><mark>Met veel enthousiasme reageer ik op uw vacature</mark> voor klantenservicemedewerker bij Coolblue. <mark>Als gedreven, klantgerichte en communicatief sterke professional ben ik ervan overtuigd dat ik een waardevolle bijdrage kan leveren.</mark></p><p>Bij Albert Heijn sta ik al twee jaar aan de servicebalie, waar ik <mark>in de hectische wereld van vandaag altijd de extra mijl ga</mark>.</p>`,
+    na: `<p>Graag solliciteer ik naar de functie van klantenservicemedewerker bij Coolblue.</p><p>Bij Albert Heijn sta ik al twee jaar aan de servicebalie, waar ik retouren en klachten afhandel.</p>` },
+};
+const k = new URLSearchParams(location.search).get("v") || "linkedin";
+document.getElementById("soort").textContent = V[k].soort;
+document.getElementById("voor").innerHTML = V[k].voor;
+document.getElementById("na").innerHTML = V[k].na;
+</script></body></html>
